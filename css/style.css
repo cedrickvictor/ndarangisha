@@ -561,6 +561,9 @@ form .buttons button , .backBtn{
 @media (max-width: 350px) {
   .content{
     margin-left: -40%;
-    width: 180%;
+    width: 200%;
   }
+  form .fields .input-field{
+    width: 65%;
+}
 }
