@@ -455,7 +455,7 @@ form.secActive .form.first{
   display: block;
   margin-bottom: 8px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 6px 0;
   color: #333;
 }
@@ -464,7 +464,7 @@ form.secActive .form.first{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  border: 3px solid rgb(119, 183, 252);
+  border: 3px solid #4070f4;
 }
 form .fields .input-field{
   display: flex;
