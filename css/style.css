@@ -464,7 +464,7 @@ form.secActive .form.first{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  border: 2px solid rgb(116, 116, 116);
+  border: 3px solid rgb(119, 183, 252);
 }
 form .fields .input-field{
   display: flex;
