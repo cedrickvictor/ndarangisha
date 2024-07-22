@@ -558,3 +558,9 @@ form .buttons button , .backBtn{
       width: 100%;
   }
 }
+@media (max-width: 350px) {
+  .content{
+    margin-left: -40%;
+    width: 180%;
+  }
+}
