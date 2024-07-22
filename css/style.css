@@ -320,6 +320,7 @@ header .container {
   .but{
     margin: 20px;
   }
+  
 
   .overlay {
     display: block;
@@ -463,6 +464,7 @@ form.secActive .form.first{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  border-bottom: 2px solid rgb(149, 148, 148);
 }
 form .fields .input-field{
   display: flex;
@@ -536,6 +538,10 @@ form .buttons button , .backBtn{
 }
 
 @media (max-width: 750px) {
+  .content{
+    margin-left: -95%;
+    width: 300%;
+  }
   .content form{
       overflow-y: scroll;
   }
