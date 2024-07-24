@@ -943,4 +943,239 @@ form .buttons button , .backBtn{
 }
 }
 
-/* fieldset  */
+/* fetched css that will be changed after  */
+
+
+/* css of admin panel */
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 10px auto;
+  gap:20px ;
+  padding: 20px;
+}
+.box1{
+  width: 40%;
+  border: 3px solid rgb(3, 98, 129);
+ border-radius: 20px;
+
+height: 4cm;
+}
+.box1 img{
+  width: 10%;
+  height: 0.5cm;
+  margin: 10px 20px;
+  border-radius: 50%;
+}
+.box1 h2{
+margin: -30px 80px;
+}
+.box1 h2::after{
+  content: "";
+  width: 20%;
+  height: 0.1cm;
+  background-color: #162839;
+  display: block;
+}
+.number h1{
+  text-align: center;
+  margin: 50px 30%;
+  background-color: lightblue;
+  border-radius: 50%;
+  color: #162839;
+  width: 20%;
+}
+
+.table h2::after{
+  text-align: center;
+  content: "";
+  width: 10%;
+  height: 0.1cm;
+  background-color: #162839;
+  display: block;
+}
+table{
+  border-collapse: collapse;
+  border: none;
+  outline: none;
+  margin:30px auto ;
+  width: 80%;
+  border-collapse: collapse;
+}
+tr:nth-child(1){
+  border-bottom: 2px solid #162839;
+  height: 1cm;
+}
+tr:nth-child(even){
+  background-color: rgb(238, 250, 255);
+}
+tr:hover{
+  background-color:rgb(164, 224, 250) ;
+}
+.bars{
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+.bar_move{
+ animation: move 1s linear; 
+}
+
+td{
+  text-align: center;
+  padding-top: 10px;
+}
+/* .dropbtn{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} */
+/* dropdown */
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a{
+  display: block;
+  margin: 20px 10px;
+}
+.dropdown:hover .dropdown-content{
+display: block;
+}
+.moon::before{
+color: #162839;
+
+}
+/* .moon::after{
+  content: "";
+  display: block;
+  background-color: #000000; 
+} */
+
+/* responsiveness */
+@media screen  and (max-width:700px){
+  .header{
+      flex-direction: column;
+      width: 100%;
+      margin: 0px 0px;
+  }
+  .logo-page{
+      margin: 20px 0px;
+  }
+  .logo img{
+      margin: 20px 0px;
+  }
+  .heading{
+      margin: 20px 10px;
+  }
+  .navbar{
+      background-color: lightblue;
+      margin: 30px 0px;
+      width: 100%;
+      height: 6cm;
+      /* position: absolute;
+      top: 180px;
+      left: -10px; */
+      display: none;
+  }
+  .navbar ul{
+      flex-direction: column;
+      margin: 20px -20px;
+      
+     
+      gap: 30px;
+  }
+ 
+  .content{
+      flex-direction: column;
+  }
+  .search{
+      position: absolute;
+      top: 100px;
+      left: 30px;
+      width: 100%;
+  }
+  .button{
+      width: 100px;
+  }
+  .bars{
+      display: block;
+      /* margin: -2cm 4cm; */
+      position: absolute;
+      top: 60px;
+      right: 70px;
+  }
+  .content{
+      width: 100%;
+      margin: 0px 0px;
+  }
+  .content-text{
+      width: 100%;
+  }
+  .content-text h1{
+      font-size: 0.7cm;
+  }
+  .content-img{
+width: 100%;
+  }
+  .change{
+      margin:0px 0px;
+      position: absolute;
+      bottom: -19cm;
+     
+  }
+  .changes{
+      background-color: #162938;
+      width: 20%;
+ }
+ .nataye{
+  margin:0px 0px;
+  position: absolute;
+  bottom: -45cm;
+ }
+ .moon{
+  width: 30%;
+ }
+ .form{
+  width: 100%;
+ }
+ form{
+  margin: 20px 0px;
+ }
+ input[type=text]{
+  margin: 20px 0px;
+ }
+ .box{
+  flex-direction: column;
+  width: 100%;
+ }
+ .box1{
+  width: 100%;
+ }
+ .admin_moon{
+  margin:0px 0px;
+  position: absolute;
+  bottom: -16cm;
+ }
+ 
+ .form-content{
+  width: 100%;
+ }
+ .login-container{
+  width: 100%;
+  margin: 0px 0px;
+ }
+ .form-login{
+  width: 95%;
+ }
+}
