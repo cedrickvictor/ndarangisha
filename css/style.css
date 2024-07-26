@@ -302,9 +302,8 @@ label{
 .box1{
   width: 40%;
   border: 3px solid rgb(3, 98, 129);
- border-radius: 20px;
-
-height: 4cm;
+  border-radius: 20px;
+  height: 4cm;
 }
 .box1 img{
   width: 10%;
@@ -390,11 +389,11 @@ li.dropdown {
 }
 .dropdown-content{
   display: none;
-position: absolute;
-background-color: #f9f9f9;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 .dropdown-content a{
   display: block;
@@ -711,8 +710,6 @@ form.secActive .form.first{
 }
 .content form .fields{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   flex-wrap: wrap;
   border: 2px solid #4070f4;
   border-radius: 5px;
@@ -727,6 +724,7 @@ form .fields .input-field{
   font-size: 12px;
   font-weight: 500;
   color: #2e2e2e;
+  margin: 10px;
 }
 .input-field input, select{
   outline: none;
@@ -737,7 +735,7 @@ form .fields .input-field{
   border: 1px solid #aaa;
   padding: 0 15px;
   height: 42px;
-  margin: 8px 0;
+  margin: 10px;
 }
 .input-field input :focus,
 .input-field select:focus{
@@ -790,7 +788,7 @@ form .buttons button , .backBtn{
 
 @media (max-width: 750px) {
   .content{
-    margin-left: -60%;
+    margin-left: -75%;
     width: 220%;
   }
   .content form{
@@ -967,14 +965,12 @@ color: #162839;
   .navbar ul{
       flex-direction: column;
       margin: 20px -20px;
-      
-     
       gap: 30px;
   }
- 
-  .content{
-      flex-direction: column;
+  .fields{
+    flex-direction: column;
   }
+  
   .search{
       position: absolute;
       top: 100px;
@@ -992,8 +988,7 @@ color: #162839;
       right: 70px;
   }
   .content{
-      width: 100%;
-      margin: 0px 0px;
+      width: 250%;
   }
   .content-text{
       width: 100%;
@@ -1002,7 +997,7 @@ color: #162839;
       font-size: 0.7cm;
   }
   .content-img{
-width: 100%;
+      width: 100%;
   }
   .change{
       margin:0px 0px;
@@ -1025,12 +1020,7 @@ width: 100%;
  .form{
   width: 100%;
  }
- form{
-  margin: 20px 0px;
- }
- input[type=text]{
-  margin: 20px 0px;
- }
+ 
  .box{
   flex-direction: column;
   width: 100%;
@@ -1054,4 +1044,5 @@ width: 100%;
  .form-login{
   width: 95%;
  }
+ 
 }
