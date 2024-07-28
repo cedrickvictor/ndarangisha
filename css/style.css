@@ -533,7 +533,12 @@ input[type=search]:hover{
     clip-path: circle(150% at 0 0);
   }
 }
-
+@media screen and (max-width: 420px){
+  .hamburger-menu{
+    display: flex;
+  }
+  
+}
 @media screen and (max-width: 870px) {
   .hamburger-menu {
     display: flex;
@@ -634,7 +639,7 @@ input[type=search]:hover{
 
 @media screen and (max-width: 470px) {
   .container {
-    padding: 0 1.5rem;
+    padding: 0;
   }
 
   .big-title {
@@ -940,7 +945,7 @@ color: #162839;
 } */
 
 /* responsiveness */
-@media screen  and (max-width:700px){
+@media screen  and (max-width:720px){
   .header{
       flex-direction: column;
       width: 100%;
