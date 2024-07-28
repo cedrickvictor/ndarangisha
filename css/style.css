@@ -1066,7 +1066,6 @@ color: #162839;
     font-size: 0.7cm;
 }
 header .container{
-  background-color: red;
   flex-direction: column;
 }
 }
