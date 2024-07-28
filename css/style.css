@@ -841,8 +841,7 @@ form .buttons button , .backBtn{
   width: 40%;
   border: 3px solid rgb(3, 98, 129);
  border-radius: 20px;
-
-height: 4cm;
+ height: 4cm;
 }
 .box1 img{
   width: 10%;
@@ -1053,4 +1052,21 @@ color: #162839;
   width: 95%;
  }
  
+}
+@media screen  and (max-width: 430px){
+  
+  .content{
+    width: 150%;
+    margin: auto 5px;
+}
+.content-text{
+    width: 70%;
+}
+.content-text h1{
+    font-size: 0.7cm;
+}
+header .container{
+  background-color: red;
+  flex-direction: column;
+}
 }
