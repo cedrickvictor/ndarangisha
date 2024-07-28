@@ -1066,6 +1066,10 @@ color: #162839;
     font-size: 0.7cm;
 }
 header .container{
-  flex-direction: column;
+  flex-direction: row;
+  gap: 40%;
+}
+.hamburger-menu {
+  margin-left: 20px;
 }
 }
