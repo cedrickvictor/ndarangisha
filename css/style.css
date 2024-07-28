@@ -171,6 +171,7 @@ label{
   justify-content: center;
   cursor: pointer;
   display: none;
+  margin-left: 57%;
 }
 
 .hamburger-menu .bar {
