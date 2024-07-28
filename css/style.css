@@ -63,8 +63,9 @@ a {
   position: relative;
   max-width: 81rem;
   width: 100%;
-  margin: 0 auto;
   padding: 0 3rem;
+  display: flex;
+  margin-bottom: 10px;
 }
 
 .overlay {
