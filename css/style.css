@@ -72,7 +72,7 @@ a {
   display: none;
 }
 
-.logo {
+.logo a{
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -503,13 +503,13 @@ input[type=search]::placeholder{
 input[type=search]:hover{
   background:none;
 }
-.button{
+/* .button{
   height: 1cm;
   width: 80px;
   border-radius: 10px;
   background-color: rgb(16, 195, 255);
   color: #fff;
-}
+} */
 
 
 /* Admin css  */
@@ -573,9 +573,7 @@ input[type=search]:hover{
   .links .btn {
     background: none;
   }
-  .but{
-    margin: 20px;
-  }
+  
   
 
   .overlay {
