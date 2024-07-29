@@ -1053,7 +1053,7 @@ color: #162839;
  
 }
 @media screen  and (max-width: 430px){
-  
+
 .content-text h1{
     font-size: 0.7cm;
 }
@@ -1128,6 +1128,9 @@ flex-direction: column;
 }
 .content-img{
   width: 100%;
+}
+.content header{
+  width: 80px;
 }
 .change{
   margin:0px 0px;
