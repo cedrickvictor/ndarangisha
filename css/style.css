@@ -461,14 +461,14 @@ color: #162839;
  color: #162938;
 }
 .navbar a{
-  margin: 0px 30px;
+margin: 0px 30px;
 color: #162938;
 text-decoration: none;
 transition:  0.4s;
 opacity:0.7;
 }
 .navbar a:hover{
-  color: rgb(5, 189, 250);
+color: rgb(5, 189, 250);
 font-size: 0.5cm;
 opacity: 1;
 
@@ -573,9 +573,6 @@ input[type=search]:hover{
   .links .btn {
     background: none;
   }
-  
-  
-
   .overlay {
     display: block;
     position: fixed;
