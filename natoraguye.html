@@ -78,7 +78,7 @@
                           </div> 
                           <div class="input-field">
                               <label>AMAZINA Y UWATORAGUYE</label>
-                              <input type="text" placeholder="Injiza amazina yawe / ikigo" required>
+                              <input type="text" placeholder="Injiza Amazina yawe/Akarere/Umurenge/Sitasiyo ya polisi" required>
                           </div> 
                           <div class="input-field"> 
                           <label>Numero Twakubonaho</label>
@@ -114,10 +114,6 @@
                       <span class="title">Ibiranga Icyangombwa</span>
     
                       <div class="fields">
-                        <div class="input-field">
-                          <label>AMAZINA ARI KUCYANGOBWA WATOYE</label>
-                          <input type="text" placeholder="Injiza amazina yawe yose" required>
-                          </div>
                           <div class="input-field">
                             <label>IBYANGOMBWA</label>
                             <select required>
@@ -134,7 +130,11 @@
                                 <option>Icyangombwa cy ubutaka</option>
                                 <option>Ibindi</option>
                             </select>
-                        </div> 
+                          </div> 
+                          <div class="input-field">
+                            <label>AMAZINA ARI KUCYANGOMBWA WATOYE</label>
+                            <input type="text" placeholder="Injiza amazina yawe yose" required>
+                          </div>
                         <div class="input-field">
                             <label>Numero iranga icyangombwa watoraguye</label>
                             <input type="number" placeholder="****************" required>
@@ -149,7 +149,13 @@
                         </div>
                         <div class="input-field">
                           <label>Gira Icyo ukivugaho</label>
-                          <input type="text" placeholder="Ese icyangombwa cyarangiritse...?" required>
+                          <select>
+                            <option hidden selected>Ibyangombwa</option>
+                            <option>Icyangombwa ntakibazo gifite?</option>
+                            <option>Icyangombwa cyarangiritse gahoro?</option>
+                            <option>Icyangombwa cyarangiritse cyane?</option>
+                            <option>Icyangombwa cyarangiritse bikabije?</option>
+                          </select>
                         </div> 
                         
                       </div>
