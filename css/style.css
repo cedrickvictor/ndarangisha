@@ -1185,10 +1185,7 @@ width: 95%;
   background-color: rgb(131, 149, 169);
   z-index: 99;
   transition: 0.5s;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+ 
 }
 
 .links ul {
