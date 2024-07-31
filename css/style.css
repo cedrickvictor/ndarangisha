@@ -58,7 +58,6 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
-
 .container {
   position: relative;
   max-width: 81rem;
@@ -90,14 +89,12 @@ a {
   list-style: none;
   align-items: center;
 }
-
 .links a {
   color: var(--lightTwo);
   margin-left: 4.5rem;
   display: inline-block;
   transition: 0.3s;
 }
-
 .links a:hover {
   color: var(--hoverColor);
   transform: scale(1.05);
