@@ -93,9 +93,14 @@ a {
   list-style: none;
   align-items: center;
 }
+ul li img{
+  width: 50px;
+  margin-left: 30px;
+  margin-bottom: -15px;
+}
 .links a {
   color: var(--lightTwo);
-  margin-left: 4.5rem;
+  margin-left: 2rem;
   display: inline-block;
   transition: 0.3s;
 }
