@@ -76,6 +76,7 @@ a {
   display: flex;
   align-items: center;
   cursor: pointer;
+  border: none;
 }
 .logo h3 {
   color: var(--darkTwo);
